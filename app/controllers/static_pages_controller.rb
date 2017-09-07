@@ -11,7 +11,7 @@ class StaticPagesController < ApplicationController
   def home_en
   end
 
-  def catalog
+  def catalog_en
   end
 
   def about_en

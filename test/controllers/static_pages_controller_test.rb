@@ -21,8 +21,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get catalog" do
-    get static_pages_catalog_url
+  test "should get catalog_en" do
+    get static_pages_catalog_en_url
     assert_response :success
   end
 
